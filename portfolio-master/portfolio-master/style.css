@@ -1,0 +1,44 @@
+h1 {
+    color: #000000;
+    margin:20px;
+}
+
+* {
+    border: solid;
+}
+
+.headline {
+    background-color:#808090;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first-baseline;
+}
+
+p,h2{
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+}
+
+.share{
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+body{
+    background-image: url("https://wallpapercave.com/wp/mlOp3xG.jpg");
+    background-position: center;
+    background-size: 50cm;
+}
